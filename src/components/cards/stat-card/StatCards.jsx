@@ -7,7 +7,13 @@ const StatCards = (props) => {
   props.data.platforms.forEach((platform) => {
     platform.analytics.forEach((stat) => {
       StatCardElements.push(
-        <StatCard key={stat.id} data={stat} img={platform.img} />
+        <StatCard
+          key={stat.id}
+          data={stat}
+          id={stat.id}
+          img={platform.img}
+          percent={stat.percent}
+        />
       );
     });
   });

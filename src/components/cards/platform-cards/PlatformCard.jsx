@@ -1,11 +1,16 @@
 import React from "react";
-import { images } from "../../../constants/images";
+import { roundNum } from "../../utilities/roundNum";
+import { getArrowImg } from "../../utilities/getArrowImg";
+import { getClass } from "../../utilities/getClass";
 
 const PlatformCard = (props) => {
   const { userName, img, brand, followers, today } = props;
 
-  const arrowImg = props.today > 0 ? images.upIcon : images.downIcon;
+  const arrowImg = getArrowImg(today);
+  const todayClass = getClass(today);
   const todayString = `${Math.abs(today)} Today`;
+  const totalFollowers = roundNum(followers);
+  const followersString = brand === "youtube" ? "subscribers" : "followers";
 
   return (
     <div className="card">
@@ -16,13 +21,13 @@ const PlatformCard = (props) => {
       </div>
 
       <div className="container-followers">
-        <p className="followers-total">{followers}</p>
-        <p className="followers-title">followers</p>
+        <p className="followers-total">{totalFollowers}</p>
+        <p className="followers-title">{followersString}</p>
       </div>
 
       <div className="container-daily">
         <img src={arrowImg} alt="" className="arrow-img" />
-        <p className="daily">{todayString}</p>
+        <p className={`daily ${todayClass}`}>{todayString}</p>
       </div>
     </div>
   );

@@ -91,6 +91,5 @@ export const StyledPlatformCards = styled.div`
   .daily {
     font-weight: 700;
     font-size: 0.75rem;
-    color: ${({ theme }) => theme.green};
   }
 `;

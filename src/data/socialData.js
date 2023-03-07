@@ -17,7 +17,7 @@ export const socialData = {
       id: 3,
       img: "./icon-instagram.svg",
       brand: "instagram",
-      followers: 1987,
+      followers: 11000,
       today: 1099,
       analytics: [
         { id: "3s1", likes: 5462, percent: 2257 },

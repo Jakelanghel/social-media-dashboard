@@ -23,9 +23,10 @@ export const getTheme = (isDark) => {
         cardBg: "hsl(227, 47%, 96%)",
         txt1: "hsl(228, 12%, 44%)",
         txt2: "hsl(230, 17%, 14%)",
+
         toggle: "hsl(230, 22%, 74%) ",
-        toggleTheme: "hsl(163, 72%, 41%)",
-        brightRed: "hsl(356, 69%, 56%)",
+        green: "hsl(163, 72%, 41%)",
+        red: "hsl(356, 69%, 56%)",
         facebook: "hsl(208, 92%, 53%)",
         twitter: "hsl(203, 89%, 53%)",
         instagram1: "hsl(37, 97%, 70%)",

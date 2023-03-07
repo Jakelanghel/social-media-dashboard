@@ -52,13 +52,6 @@ export const StyledStatCards = styled.div`
     height: 5px;
   }
 
-  .up {
-    color: ${({ theme }) => theme.green};
-  }
-
-  .down {
-    color: ${({ theme }) => theme.red};
-  }
   .percent {
     font-size: 0.75rem;
     font-weight: 700;

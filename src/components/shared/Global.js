@@ -52,4 +52,12 @@ export const GlobalStyles = createGlobalStyle`
         color: ${({ theme }) => theme.txt2}
     }
 
+    .up {
+        color: ${({ theme }) => theme.green};
+    }
+
+    .down {
+        color: ${({ theme }) => theme.red};
+    }
+
 `;
