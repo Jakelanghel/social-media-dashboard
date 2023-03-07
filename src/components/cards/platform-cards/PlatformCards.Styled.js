@@ -45,6 +45,10 @@ export const StyledPlatformCards = styled.div`
     background-color: ${({ theme }) => theme.youtube};
   }
 
+  .brand-img {
+    width: 20px;
+  }
+
   .container-profile {
     display: flex;
     justify-content: center;
@@ -57,6 +61,11 @@ export const StyledPlatformCards = styled.div`
     font-weight: 700;
   }
 
+  .user-name,
+  .followers-title {
+    color: ${({ theme }) => theme.txt1};
+  }
+
   .followers-total {
     font-size: 3.5rem;
     font-weight: 700;
@@ -66,7 +75,6 @@ export const StyledPlatformCards = styled.div`
     font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: ${({ theme }) => theme.txt1};
   }
 
   .container-daily {

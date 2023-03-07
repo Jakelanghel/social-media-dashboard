@@ -2,7 +2,7 @@ import React from "react";
 import { StyledHeader } from "./Header.Styled";
 import ThemeSwitcher from "../theme-switcher/ThemeSwitcher";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <StyledHeader>
       <div className="container-title">
@@ -12,7 +12,7 @@ const Header = () => {
         </h2>
       </div>
 
-      <ThemeSwitcher />
+      <ThemeSwitcher isDark={props.isDark} setIsDark={props.setIsDark} />
     </StyledHeader>
   );
 };

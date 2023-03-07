@@ -1,16 +1,15 @@
 import React from "react";
 import { images } from "../../../constants/images";
 import { StyledPlatformCards } from "./PlatformCards.Styled";
-import { socialData } from "../../../data/socialData";
 
-import Card from "./Card";
+import PlatformCard from "./PlatformCard";
 
-const PlatformCards = () => {
-  const CardElements = socialData.platforms.map((plat) => {
+const PlatformCards = (props) => {
+  const CardElements = props.data.platforms.map((plat) => {
     return (
-      <Card
+      <PlatformCard
         key={plat.id}
-        userName={socialData.username}
+        userName={props.data.username}
         img={plat.img}
         brand={plat.brand}
         followers={plat.followers}

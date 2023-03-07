@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../../../constants/images";
 
-const Card = (props) => {
+const PlatformCard = (props) => {
   const { userName, img, brand, followers, today } = props;
 
   const arrowImg = props.today > 0 ? images.upIcon : images.downIcon;
@@ -11,7 +11,7 @@ const Card = (props) => {
     <div className="card">
       <div className={`accent ${brand}`}></div>
       <div className="container-profile">
-        <img src={img} alt={brand} />
+        <img src={img} alt={brand} className="brand-img" />
         <p className="user-name">@{userName}</p>
       </div>
 
@@ -28,4 +28,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default PlatformCard;
