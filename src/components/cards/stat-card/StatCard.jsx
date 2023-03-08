@@ -6,10 +6,9 @@ import { getStatTitle } from "../../utilities/getStatTitle";
 const StatCard = (props) => {
   const { data, percent, img, id } = props;
 
-  const title = getStatTitle(data);
-  // Get keys of stat Obj
   const keys = Object.keys(data);
   const statKey = keys[1];
+  const title = getStatTitle(statKey);
   const likes = roundNum(data[statKey]);
   const percentString = `${Math.abs(percent)}%`;
   const arrowImg = getArrowImg(percent);

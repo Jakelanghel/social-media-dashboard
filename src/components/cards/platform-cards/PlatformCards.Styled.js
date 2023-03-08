@@ -4,6 +4,7 @@ export const StyledPlatformCards = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1.5rem;
 
   .card {
@@ -91,5 +92,14 @@ export const StyledPlatformCards = styled.div`
   .daily {
     font-weight: 700;
     font-size: 0.75rem;
+  }
+
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .card {
+      min-width: 300px;
+    }
   }
 `;

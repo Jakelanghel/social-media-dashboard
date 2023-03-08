@@ -39,4 +39,10 @@ export const StyledThemeSwitcher = styled.div`
   .light-mode {
     margin-left: auto;
   }
+
+  @media screen and (min-width: 800px) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 `;

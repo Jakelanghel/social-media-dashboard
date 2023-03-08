@@ -27,4 +27,13 @@ export const StyledHeader = styled.header`
     border-bottom: solid 2px ${({ theme }) => theme.cardBg};
     padding-bottom: 0.5rem;
   }
+
+  @media screen and (min-width: 800px) {
+    position: relative;
+    padding-bottom: 3rem;
+
+    .container-title {
+      border-bottom: none;
+    }
+  }
 `;

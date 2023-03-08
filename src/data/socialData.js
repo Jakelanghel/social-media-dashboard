@@ -4,6 +4,7 @@ export const socialData = {
   platforms: [
     {
       id: 1,
+      username: "@nathanf",
       img: "./icon-facebook.svg",
       brand: "facebook",
       followers: 1987,
@@ -13,19 +14,10 @@ export const socialData = {
         { id: "1s2", likes: 52, percent: -2 },
       ],
     },
-    {
-      id: 3,
-      img: "./icon-instagram.svg",
-      brand: "instagram",
-      followers: 11000,
-      today: 1099,
-      analytics: [
-        { id: "3s1", likes: 5462, percent: 2257 },
-        { id: "3s2", profileViews: 52000, percent: 553 },
-      ],
-    },
+
     {
       id: 2,
+      username: "@nathanf",
       img: "./icon-twitter.svg",
       brand: "twitter",
       followers: 1044,
@@ -36,7 +28,21 @@ export const socialData = {
       ],
     },
     {
+      id: 3,
+      username: "@realnathanf",
+      img: "./icon-instagram.svg",
+      brand: "instagram",
+      followers: 11000,
+      today: 1099,
+      analytics: [
+        { id: "3s1", likes: 5462, percent: 2257 },
+        { id: "3s2", profileViews: 52000, percent: 553 },
+      ],
+    },
+
+    {
       id: 4,
+      username: "Nathan F.",
       img: "./icon-youtube.svg",
       brand: "youtube",
       followers: 8239,

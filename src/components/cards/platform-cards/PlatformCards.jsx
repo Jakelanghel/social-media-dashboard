@@ -9,7 +9,7 @@ const PlatformCards = (props) => {
     return (
       <PlatformCard
         key={plat.id}
-        userName={props.data.username}
+        userName={plat.username}
         img={plat.img}
         brand={plat.brand}
         followers={plat.followers}

@@ -20,7 +20,7 @@ const StatCards = (props) => {
   return (
     <StyledStatCards>
       <h2>overview - today</h2>
-      {StatCardElements}
+      <div className="container-stat-elements">{StatCardElements}</div>
     </StyledStatCards>
   );
 };

@@ -17,7 +17,7 @@ const PlatformCard = (props) => {
       <div className={`accent ${brand}`}></div>
       <div className="container-profile">
         <img src={img} alt={brand} className="brand-img" />
-        <p className="user-name">@{userName}</p>
+        <p className="user-name">{userName}</p>
       </div>
 
       <div className="container-followers">

@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const StyledStatCards = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
   margin-top: 2.5rem;
+
+  .container-stat-elements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
 
   h2 {
     text-transform: capitalize;
@@ -55,5 +59,22 @@ export const StyledStatCards = styled.div`
   .percent {
     font-size: 0.75rem;
     font-weight: 700;
+  }
+
+  @media screen and (min-width: 800px) {
+    text-align: center;
+    .container-stat-elements {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      min-width: 300px;
+    }
+
+    h2 {
+      margin: 2rem 0;
+      margin-top: 3.5rem;
+    }
   }
 `;
