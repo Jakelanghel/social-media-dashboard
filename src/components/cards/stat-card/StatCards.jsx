@@ -13,6 +13,7 @@ const StatCards = (props) => {
           id={stat.id}
           img={platform.img}
           percent={stat.percent}
+          brand={platform.brand}
         />
       );
     });

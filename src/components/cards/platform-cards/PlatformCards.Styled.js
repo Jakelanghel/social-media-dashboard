@@ -7,6 +7,11 @@ export const StyledPlatformCards = styled.div`
   justify-content: center;
   gap: 1.5rem;
 
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.txt2};
+  }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -17,6 +22,10 @@ export const StyledPlatformCards = styled.div`
     background-color: ${({ theme }) => theme.cardBg};
     padding: 2rem;
     position: relative;
+  }
+
+  .card:hover {
+    background-color: ${({ theme }) => theme.platformHover};
   }
 
   .accent {

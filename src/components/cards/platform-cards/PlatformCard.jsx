@@ -13,7 +13,7 @@ const PlatformCard = (props) => {
   const followersString = brand === "youtube" ? "subscribers" : "followers";
 
   return (
-    <div className="card">
+    <a className="card" href={`https://www.${brand}.com/`}>
       <div className={`accent ${brand}`}></div>
       <div className="container-profile">
         <img src={img} alt={brand} className="brand-img" />
@@ -29,7 +29,7 @@ const PlatformCard = (props) => {
         <img src={arrowImg} alt="" className="arrow-img" />
         <p className={`daily ${todayClass}`}>{todayString}</p>
       </div>
-    </div>
+    </a>
   );
 };
 

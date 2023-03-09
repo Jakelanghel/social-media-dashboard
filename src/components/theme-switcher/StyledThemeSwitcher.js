@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const StyledThemeSwitcher = styled.div`
-  width: 300px;
   padding: 1rem 0;
   padding-bottom: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 
   .mode {
     font-size: 1rem;

@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const StyledStatCards = styled.div`
   margin-top: 2.5rem;
 
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.txt2};
+  }
+
   .container-stat-elements {
     width: 100%;
     display: flex;

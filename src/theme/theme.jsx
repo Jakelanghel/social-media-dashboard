@@ -6,11 +6,11 @@ export const getTheme = (isDark) => {
         cardBg: "hsl(228, 28%, 20%)",
         txt1: "hsl(228, 34%, 66%)",
         txt2: "hsl(0, 0%, 100%)",
-
         toggle1: "hsl(210, 78%, 56%)",
         toggle2: "hsl(146, 68%, 55%)",
         green: "hsl(163, 72%, 41%)",
         red: "hsl(356, 69%, 56%)",
+        platformHover: "#333A56",
         facebook: "hsl(208, 92%, 53%)",
         twitter: "hsl(203, 89%, 53%)",
         instagram1: "hsl(37, 97%, 70%)",
@@ -23,10 +23,11 @@ export const getTheme = (isDark) => {
         cardBg: "hsl(227, 47%, 96%)",
         txt1: "hsl(228, 12%, 44%)",
         txt2: "hsl(230, 17%, 14%)",
-
         toggle: "hsl(230, 22%, 74%) ",
         green: "hsl(163, 72%, 41%)",
         red: "hsl(356, 69%, 56%)",
+
+        platformHover: "#E1E3F0",
         facebook: "hsl(208, 92%, 53%)",
         twitter: "hsl(203, 89%, 53%)",
         instagram1: "hsl(37, 97%, 70%)",

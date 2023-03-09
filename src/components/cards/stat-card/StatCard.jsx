@@ -4,7 +4,7 @@ import { getArrowImg } from "../../utilities/getArrowImg";
 import { getClass } from "../../utilities/getClass";
 import { getStatTitle } from "../../utilities/getStatTitle";
 const StatCard = (props) => {
-  const { data, percent, img, id } = props;
+  const { data, percent, img, id, brand } = props;
 
   const keys = Object.keys(data);
   const statKey = keys[1];
@@ -15,7 +15,7 @@ const StatCard = (props) => {
   const arrowClass = getClass(percent);
 
   return (
-    <div className="card" key={id}>
+    <a className="card" key={id} href={`https://www.${brand}.com/`}>
       <div className="container-title">
         <p className="stat-title">{title}</p>
         <img src={img} alt="" className="brand-img" />
@@ -29,7 +29,7 @@ const StatCard = (props) => {
           <p className={`percent ${arrowClass}`}>{percentString}</p>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
