@@ -9,7 +9,7 @@ import { socialData } from "./data/socialData";
 import Header from "./components/header/Header";
 import PlatformCards from "./components/cards/platform-cards/PlatformCards";
 import StatCards from "./components/cards/stat-card/StatCards";
-
+// dsf
 function App() {
   const [isDark, setIsDark] = useState(true);
   const theme = getTheme(isDark);
