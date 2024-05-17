@@ -22,11 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- <img src="./public/sc-mobile.png" alt="Desktop View" width="300">
-<img src="./public/sc-desktop.png" alt="Mobile View" width="500"> -->
-
-![mobile](./public/sc-mobile.png)
-![desktop](./public/sc-desktop.png)
+<img src="./public/sc-mobile.png" alt="Desktop View" width="300">
+<img src="./public/sc-desktop.png" alt="Mobile View" width="500">
 
 ### Links
 
