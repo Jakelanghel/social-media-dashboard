@@ -30,9 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-social-proof-section-built-with-react-and-styled-components-_DOpGmd-HM)
-- Live Site URL: [Github-pages](https://jakelanghel.github.io/soc-proof-section/)
-- Github Repo: [Github](https://github.com/Jakelanghel/soc-proof-section)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-media-dashboard-7_rTxzoScD)
 
 ## My process
 

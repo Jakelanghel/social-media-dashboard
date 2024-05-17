@@ -80,6 +80,7 @@ export const StyledStatCards = styled.div`
     h2 {
       margin: 2rem 0;
       margin-top: 3.5rem;
+      text-align: left;
     }
   }
 `;
