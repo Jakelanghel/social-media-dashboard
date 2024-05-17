@@ -409,6 +409,7 @@ Error generating stack: `+o.message+`
     h2 {
       margin: 2rem 0;
       margin-top: 3.5rem;
+      text-align: left;
     }
   }
 `,bm=e=>{const t=[];return e.data.platforms.forEach(n=>{n.analytics.forEach(r=>{t.push(G(Jm,{data:r,id:r.id,img:n.img,percent:r.percent,brand:n.brand},r.id))})}),Le(qm,{children:[G("h2",{children:"overview - today"}),G("div",{className:"container-stat-elements",children:t})]})};function e0(){const[e,t]=Oe.useState(!0),n=Fm(e);return G(Ld,{children:Le(Am,{theme:n,children:[G(Dm,{}),Le(jm,{children:[G(Wm,{data:si.platforms,isDark:e,setIsDark:t}),G(Xm,{data:si}),G(bm,{data:si})]})]})})}ai.createRoot(document.getElementById("root")).render(G(dn.StrictMode,{children:G(e0,{})}));
